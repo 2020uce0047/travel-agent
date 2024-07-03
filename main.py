@@ -17,6 +17,6 @@ if __name__ == '__main__':
         'input' : query,
         'chat_history': []
         })
-        # Display the input text as output
+        
         st.write('Agent :\n\n', json.loads(agent_out['agent_out'])['answer'])
 
