@@ -6,7 +6,7 @@ runnable = Graph()
 
 if __name__ == '__main__':
     # Title of the app
-    st.title('Meet you Travel Agent !')
+    st.title('Meet your Travel Agent !')
 
     # Create a text input box
     query = st.text_area('Query:', height = 200)
