@@ -29,8 +29,8 @@ Ensure you have the following python version:
 3. **Create a `.env` file in the parent directory** and add your API keys:
 
     ```env
-    SKYSCANNER_API_KEY=your_skyscanner_api_key
-    BOOKING_API_KEY=your_booking_api_key
+    OPENAI_API_KEY = your-openai-key
+    SERP_API_KEY = your-serpapi-key
     ```
 
 4. **Install the required packages**:
