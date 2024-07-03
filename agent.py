@@ -3,6 +3,10 @@ from langchain import hub
 from langchain.agents import create_openai_tools_agent
 from langchain_openai.chat_models import ChatOpenAI
 from tools import *
+from dotenv import load_dotenv
+
+load_dotenv()
+
 prompt = hub.pull("hwchase17/openai-functions-agent")
 
 # Choose the LLM that will drive the agent
