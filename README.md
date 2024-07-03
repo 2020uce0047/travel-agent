@@ -17,7 +17,7 @@ Ensure you have the following python version:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/langgraph-travel-agent.git
+    git clone https://github.com/2020uce0047/travel-agent.git
     ```
 
 2. **Navigate to the project directory**:
